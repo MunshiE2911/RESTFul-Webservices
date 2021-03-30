@@ -1,12 +1,19 @@
-package com.munshi.rest.webservices.restfulwebservices.bean;
+package com.munshi.rest.webservices.restfulwebservices.user.bean;
 
 import java.util.Date;
+
+import javax.validation.constraints.Past;
+import javax.validation.constraints.Size;
 
 public class User {
 	
 	private Integer id;
 	
+	@Size(min=3, message="Name should be a minimum of 3 characters")
 	private String name;
+	
+	@Past
+	private Date birthDate;
 	
 	public Integer getId() {
 		return id;
@@ -32,7 +39,7 @@ public class User {
 		this.birthDate = birthDate;
 	}
 
-	private Date birthDate;
+	
 
 	public User(Integer id, String name, Date birthDate) {
 		super();

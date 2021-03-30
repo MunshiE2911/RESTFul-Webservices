@@ -1,0 +1,6 @@
+server:
+ port: 8110
+logging:
+  level:
+    org:
+      springframework: DEBUG

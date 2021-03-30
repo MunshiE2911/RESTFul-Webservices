@@ -1,4 +1,4 @@
-package com.munshi.rest.webservices.restfulwebservices.bean;
+package com.munshi.rest.webservices.restfulwebservices.helloworld.bean;
 
 public class HelloWordBean {
 	

@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "server.error.exclude.stacktrace",
+    "type": "java.lang.String",
+    "description": "A description for 'server.error.exclude.stacktrace'"
+  },
+  {
+    "name": "server.error.include.stacktrace",
+    "type": "java.lang.String",
+    "description": "A description for 'server.error.include.stacktrace'"
+  }
+]}

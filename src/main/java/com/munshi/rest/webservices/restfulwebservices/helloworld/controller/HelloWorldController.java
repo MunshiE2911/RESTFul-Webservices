@@ -1,10 +1,10 @@
-package com.munshi.rest.webservices.restfulwebservices.controller;
+package com.munshi.rest.webservices.restfulwebservices.helloworld.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.munshi.rest.webservices.restfulwebservices.bean.HelloWordBean;
+import com.munshi.rest.webservices.restfulwebservices.helloworld.bean.HelloWordBean;
 
 @RestController
 public class HelloWorldController {
